@@ -56,7 +56,7 @@ h2 {
 
 h3 {
     font-size: 3.2rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 h4 {
@@ -222,4 +222,15 @@ img {
     margin-top: 4rem;
     background-color: var(--negro);
     padding-bottom: 4rem;
+}
+
+/* Sobre Nosotros */
+
+
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
 }
